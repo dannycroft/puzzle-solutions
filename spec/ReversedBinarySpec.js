@@ -1,4 +1,4 @@
-var rb = require("../app/ReversedBinary.js");
+var rb = require("../app/reversed-binary/ReversedBinary.js");
 
 describe("Puzzle collection: ", function() {
 
