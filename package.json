@@ -1,7 +1,7 @@
 {
   "name": "puzzle-solutions",
   "version": "0.0.1",
-  "description": "JavaScript solutions to common problems",
+  "description": "JavaScript solutions to common puzzles",
   "main": "ReversedBinary.js",
   "scripts": {
     "test": "jasmine-node spec/ --color --noStack"
