@@ -17,7 +17,7 @@ describe("Reversed Binary", function() {
     });
 
     it("should handle non-integer types", function() {
-        expect(rb.convert("abc")).toBeUndefined();
+        expect(rb.convert("abc")).toBeNaN();
     });
 
 });
