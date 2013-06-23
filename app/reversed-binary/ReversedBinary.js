@@ -1,7 +1,6 @@
 /**
  * Creates a new ReverseBinary instance
  * @constructor
- * @see https://www.spotify.com/uk/jobs/tech/reversed-binary/
  */
 
 module.exports = new ReverseBinary();
@@ -25,9 +24,8 @@ function ReverseBinary() {
  */
 ReverseBinary.prototype.convert = function(n) {
     n = this.filterInt(n);
-    if (!isNaN(n)) {
-        return parseInt(n.toString(2)
-                .split("").reverse("")
-                .join("").toString(2), 2);
-    }
+    if (isNaN(n)) { return n; }
+    return parseInt(n.toString(2)
+            .split("").reverse("")
+            .join("").toString(2), 2);
 };
