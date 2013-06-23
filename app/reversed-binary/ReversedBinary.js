@@ -13,7 +13,7 @@ function ReverseBinary() {
             return Number(value);
         }
         return NaN;
-    };
+    };
 }
 
 /**
