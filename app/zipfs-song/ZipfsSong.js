@@ -1,12 +1,13 @@
 /**
  * Take a data chunk consisting of two settings and n amount of tracks. Each
- * track has a name (String) and an amount of times that a track has been played
+ * track has a name (String) and an amount of times that the track has been played
  * (Number). Log out the most popular tracks.
  *
  * CONSTRAINTS
  *
  *  1 <= n <= 50000 1 <= m <= n 0 <= fi <= 10^12
  *
+ * @see http://en.wikipedia.org/wiki/Zipf's_law
  * @example
  *
  *  INPUT
